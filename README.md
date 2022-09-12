@@ -1,2 +1,2 @@
-Repository for the homewirk
+Repository for the homework
 ----
