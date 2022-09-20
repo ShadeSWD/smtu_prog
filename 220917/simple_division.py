@@ -5,17 +5,17 @@ def check_list(simples, element):
             flag = False
     return flag
 
+
 def check_number(number):
     simples = []
     simples.append(1)
     for i in range(1, (number // 2) + 1):
         flag = check_list(simples, i)
-        if ((number % i == 0) and (flag == True)) and (i != 1):
+        if ((number % i == 0) and flag) and (i != 1):
             simples.append(i)
     print(simples)
 
 
 if __name__ == "__main__":
-    number = int(input('Type a number'))
-    check_number(number)
-    
+    num = int(input('Type a number'))
+    check_number(num)

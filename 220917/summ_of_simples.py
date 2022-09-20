@@ -5,13 +5,14 @@ def check_list(simples, element):
             flag = False
     return flag
 
+
 def calculate(number):
     simples = []
     simples.append(1)
     i = 1
     summ = 0
     while len(simples) <= number:
-        if check_list(simples, i) == True:
+        if check_list(simples, i):
             summ += i ** 2
             simples.append(i)
         i += 1
@@ -19,6 +20,5 @@ def calculate(number):
 
 
 if __name__ == "__main__":
-    number = int(input('Type a number'))
-    calculate(number)
-    
+    data = int(input('Type a number'))
+    calculate(data)

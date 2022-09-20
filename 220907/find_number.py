@@ -63,14 +63,14 @@ def play_game():
     lower_limit = input_lower_limit()
     upper_limit = input_upper_limit(lower_limit)
     game_number = random.randint(lower_limit, upper_limit)
-    print('Debug: 'game_number)
+    print('Debug: ', game_number)
     max_attempts = input_number('Enter maximum attempts')
     current_attempt = 1
     while current_attempt <= max_attempts:
         print("Attempt: ", current_attempt)
         number = input_game_number(lower_limit, upper_limit)
         finish_flag = check_number(number, game_number)
-        if finish_flag == True:
+        if finish_flag:
             break
         current_attempt += 1
     print('Game over')
