@@ -1,0 +1,8 @@
+$id=q20220921100257715903a$time=2022-09-21 10:02:57.715903$sender=Arina$answered=False$comments=None$text=Question
+$id=q20220921100752474384m$time=2022-09-21 10:07:52.474384$sender=Maria$answered=False$comments=None$text=How do you do?
+$id=q20220921112111518064m$time=2022-09-21 11:21:11.518064$sender=Maria$answered=False$comments=None$text=Hello
+$id=q20220921112111518064m20220921112230766600l$time=2022-09-21 11:22:30.766600$sender=Lisa$answered=False$comments=None$text=Hi
+$id=q20220921112515386482v$time=2022-09-21 11:25:15.386482$sender=Vlad$answered=False$comments=None$text=Q
+$id=q20220921112515386482v20220921112552944481d$time=2022-09-21 11:25:52.944481$sender=Dima$answered=False$comments=None$text=S
+$id=q20220921112647565003e$time=2022-09-21 11:26:47.565003$sender=Ed$answered=False$comments=None$text=L
+$id=q20220921112647565003e20220921112701969516t$time=2022-09-21 11:27:01.969516$sender=Tanya$answered=False$comments=None$text=K
