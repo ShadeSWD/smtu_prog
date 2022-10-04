@@ -1,10 +1,14 @@
 from collections import namedtuple
+import xml.etree.ElementTree as ElT
 
 
 Question = namedtuple('Question', 'idn date_and_time text sender answered comments')
 
 
 def read():
+    questions = ElT.parse('questions.xml')
+    root = questions.getroot()
+    print(root)
     list_of_questions = []
     with open("questions.txt", "r") as f:
         for line in f:
