@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bundle>
-  <Question><Idn>20220928100152857965a</Idn><Time>2022-09-28 10:01:52.857965</Time><Text>question</Text><Sender>Arina</Sender><Status /><Comments /></Question>
-  <Question><Idn>20220928100201855308m</Idn><Time>2022-09-28 10:02:01.855308</Time><Text>hello</Text><Sender>Maria</Sender><Status /><Comments /></Question>
-  <Question><Idn>20220928101413543793d</Idn><Time>2022-09-28 10:14:13.543793</Time><Text>Hi</Text><Sender>Dan</Sender><Status /><Comments /></Question>
-  <Question><Idn>20220928105847229842n</Idn><Time>2022-09-28 10:58:47.229842</Time><Text>Log</Text><Sender>Nick</Sender><Status /><Comments /></Question>
+  <Question><Idn>20221004131132195268a</Idn><Time>2022-10-04 13:11:32.195268</Time><Text>Hello</Text><Sender>admin</Sender><Status>Answered</Status><Comments /></Question>
+  <Question><Idn>20221004131609582253m</Idn><Time>2022-10-04 13:16:09.582253</Time><Text>New question</Text><Sender>Marina</Sender><Status>New</Status><Comments /></Question>
+  <Question><Idn>20221004134128373256a</Idn><Time>2022-10-04 13:41:28.373256</Time><Text>New submarine</Text><Sender>admin</Sender><Status>Answered</Status><Comments /></Question>
 </bundle>

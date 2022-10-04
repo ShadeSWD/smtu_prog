@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle>
+  <User><Name>Arina</Name><Password>arina</Password></User>
+  <User><Name>admin</Name><Password>admin</Password></User>
+  <User><Name>Marina</Name><Password>marina</Password></User>
+</bundle>
