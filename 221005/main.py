@@ -49,9 +49,12 @@ def signup(conn, cur):
 def answer_question(qid, usr, conn, cur):
     n_time = datetime.now()
     n_text = input('Answer:\n')
+    answered = "Answered"
 
     cur.execute(f"""INSERT INTO answers(question_id, time, sender, text)
         VALUES('{qid}', '{str(n_time)}', '{usr}', '{n_text}')""")
+    cur.execute(f"""UPDATE questions SET status='{answered}' WHERE question_id='{qid}'""")
+
     conn.commit()
 
 
